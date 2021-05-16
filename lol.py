@@ -279,9 +279,9 @@ def pilih_super():
 	
 	print "\033[0;39;40m[•] Total IDs : \033[0;97m"+str(len(id))
 	pass5 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[1]Password: ')
-    pass6 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[2]Password: ')
-    pass7 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[3]Password: ')
-    pass8 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[4]Password: ')
+        pass6 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[2]Password: ')
+        pass7 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[3]Password: ')
+      	pass8 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[4]Password: ')
 	jalan('\033[0;39;40m[•] Please Wait...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
